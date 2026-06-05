@@ -40,6 +40,7 @@ body{
     align-content: center;
     width: 400px;
     height: 250px;
+    border-radius: 10px;
     
     .html5{
         width: 100px;
@@ -59,7 +60,27 @@ body{
         width: 70px;
         top: 30px;
     }
-    
-
-
+    .linguagens-de-cima{
+        position: relative;
+        bottom: 35px;
+        
+    }
+   .pythonft{
+    width: 80px;
+    position: relative;
+    top: 125px;
+    right: 215px;
+   }
+   .git{
+    width: 80px;
+    position: relative;
+    left: 160px;
+    top: 45px;
+   }
+   .sql{
+    position: relative;
+    left: 150px;
+    width: 150px;
+    top: 40px;
+    }
  }
