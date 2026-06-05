@@ -1,5 +1,5 @@
 body{
-    background-color: hwb(179 179% 179%);
+    background-color: rgb(179, 179, 179);
 }
 .cabeçalho{
     border-color: black;
@@ -8,4 +8,27 @@ body{
 .titulocabeçalho{
     text-align: center;
     font-size: 18px;
+    font-family: CodePro;
+}
+@font-face {
+    font-family: CodePro;
+    src: url(/Fontes/SourceCodePro-VariableFont_wght.ttf);
+}
+.sobremim{
+    background-color: rgb(217, 217, 217);
+    width: 900px;
+    height: 200px;
+    border: 10px;
+    border-radius: 10px;
+    align-content: center;
+    position: relative;
+    left: 35px;
+    top: 100px;
+    
+    .paragrafosobremim{
+      font-family: CodePro;
+      text-align: left;
+      position: relative;
+      padding: 20px;
+    }
 }
