@@ -1,0 +1,11 @@
+body{
+    background-color: hwb(179 179% 179%);
+}
+.cabeçalho{
+    border-color: black;
+    border-radius:10px;
+}
+.titulocabeçalho{
+    text-align: center;
+    font-size: 18px;
+}
