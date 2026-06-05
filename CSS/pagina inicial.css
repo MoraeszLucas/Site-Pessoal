@@ -32,3 +32,36 @@ body{
       padding: 20px;
     }
 }
+.linguagens{
+    background-color: rgb(217, 217, 217);
+    position: relative;
+    left: 35px;
+    top: 175px;
+    align-content: center;
+    width: 400px;
+    height: 250px;
+    
+    .html5{
+        width: 100px;
+        position: relative;
+        left: 40px;
+        top: 30px;
+    }
+    .jvscript{
+        position: relative;
+        left: 55px;
+        width: 80px;
+        top: 30px;
+    }
+    .css{
+        position: relative;
+        left: 85px;
+        width: 70px;
+        top: 30px;
+    }
+    .sql{
+      position: relative;
+    }
+
+}
+
