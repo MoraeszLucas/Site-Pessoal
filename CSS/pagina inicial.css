@@ -84,3 +84,20 @@ body{
     top: 40px;
     }
  }
+
+.RedeSociais{
+    background-color: rgb(217, 217, 217);
+    position: relative;
+    left: 530px;
+    top: 20px;
+    align-content: center;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+
+    .botoes{
+        width: 15px;
+        height: 15px;
+    }
+    
+}
