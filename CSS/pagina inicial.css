@@ -85,19 +85,49 @@ body{
     }
  }
 
-.RedeSociais{
-    background-color: rgb(217, 217, 217);
-    position: relative;
-    left: 530px;
-    top: 20px;
-    align-content: center;
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
+.botoes {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  left: 600px;
+  
 
-    .botoes{
-        width: 15px;
-        height: 15px;
-    }
-    
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+  color: white;
+  position: relative;
+  top: 64px;
+  right: 100px;
+  width: 335px;
+}
+
+.btn-linkedin:hover {
+  background-color: #005f8e;
+}
+
+.btn-github {
+  background-color: #333;
+  color: white;
+  position: relative;
+  right: 500px;
+  width: 335px;
+  bottom: 75px;
+  height: 90px;
+  
+}
+
+.btn-github:hover {
+  background-color: #111;
 }
